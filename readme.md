@@ -6,14 +6,12 @@ You will find in the source code some problems found in codewars, as perhaps in 
 
 
 #### Table of Contents  
-- [Isogram](##Isogram)  
-	- [solution](###Solution)  
+- [Isogram](#Isogram)  
+  - [solution](#Solution)  
 
-<a name="Isogram"/>
+
 ## Isogram
 An isogram is a word that has no repeating letters, consecutiv  or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
-
-<a name="Solution"/>
 
 ### **Solution**
 :tada:  :tada: :medal_sports: :medal_sports:
