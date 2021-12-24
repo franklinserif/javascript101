@@ -22,4 +22,5 @@ function isIsogram(str) {
 
 }
 
+//export function
 module.exports = isIsogram;
