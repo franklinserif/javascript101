@@ -10,8 +10,10 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watchAll"
-    },
+  },
   "devDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-config-google": "^0.14.0",
     "jest": "^27.4.5"
   }
 }

@@ -8,19 +8,20 @@
 /**
  * Return true if a string is a isogram word and false if it's not
  * @param {string} str
- * @returns {boolean}
+ * @return {boolean}
  */
 function isIsogram(str) {
-  if (str === "") {
+  if (str === '') {
     return true;
   }
   if (!str) {
     return false;
   }
-  //Set only allows unique values, if the array dont have duplicates value it would be same size as the original
+  /**
+   * Set only allows unique values, if the array dont have duplicates value it
+   * would be same size as the original
+   * */
   return new Set(str.toLowerCase().split('')).size === str.split('').length;
-
 }
 
-//export function
 module.exports = isIsogram;
