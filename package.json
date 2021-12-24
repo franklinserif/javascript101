@@ -1,0 +1,17 @@
+{
+  "name": "javascript101",
+  "version": "1.0.0",
+  "description": "un proyecto javascript para practicar algoritmos y resolución de problemas",
+  "main": "src/index.js",
+  "repository": "git@github.com:franklingrab/javascript101.git",
+  "author": "Franklin Rodriguez <franklinserif@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+    },
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
