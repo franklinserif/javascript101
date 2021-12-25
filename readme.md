@@ -8,7 +8,7 @@ You will find in the source code some problems found in codewars, as perhaps in 
 #### Table of Contents
 
 - [Isogram](#Isogram)
-  - [isogram solution](#isogram-Solution)
+  - [isogram solution](#Isogram-Solution)
 - [vowelCount](#Vowel-Count)
   - [vowel Count solution](#vowel-count-Solution)
 
@@ -16,7 +16,7 @@ You will find in the source code some problems found in codewars, as perhaps in 
 
 An isogram is a word that has no repeating letters, consecutiv or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
 
-### **Solution**
+### **Isogram Solution**
 
 :tada: :tada: :medal_sports: :medal_sports:
 
@@ -47,7 +47,7 @@ Return the number (count) of vowels in the given string
 we will consider a, e, i, o, u as vowels for this Kata (but not y).
 the input string will only consist of lower case letters and/or spaces.
 
-### **Solution**
+### **Vowel Count Solution**
 
 :tada: :tada: :medal_sports: :medal_sports:
 
