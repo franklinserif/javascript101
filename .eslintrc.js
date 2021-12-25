@@ -1,12 +1,27 @@
 module.exports = {
   env: {
     browser: true,
-    commonjs: true,
-    es2021: true,
+    es6: true,
   },
-  extends: ['google'],
+  extends: ['plugin:react/recommended', 'google'],
+  globals: {
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'readonly',
+  },
   parserOptions: {
-    ecmaVersion: 13,
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 2021,
+    sourceType: 'module',
   },
-  rules: {},
+  plugins: ['react', 'prettier'],
+  rules: {
+    'prettier/prettier': 'error',
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
 };

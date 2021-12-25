@@ -9,6 +9,8 @@ You will find in the source code some problems found in codewars, as perhaps in 
 
 - [Isogram](#Isogram)
   - [solution](#Solution)
+- [vowelCount](#Vowel-Count)
+  - [solution](#Solution)
 
 ## Isogram
 
@@ -36,5 +38,27 @@ function isIsogram(str) {
    * would be same size as the original
    * */
   return new Set(str.toLowerCase().split('')).size === str.split('').length;
+}
+```
+
+## Vowel Count
+
+Return the number (count) of vowels in the given string
+we will consider a, e, i, o, u as vowels for this Kata (but not y).
+the input string will only consist of lower case letters and/or spaces.
+
+### **Solution**
+
+:tada: :tada: :medal_sports: :medal_sports:
+
+```javascript
+function vowelCount(word) {
+  return word
+    .split('')
+    .reduce(
+      (numberOfVowel, currentLetter) =>
+        /[aeiuo]/i.test(currentLetter) ? (numberOfVowel += 1) : numberOfVowel,
+      0,
+    );
 }
 ```
