@@ -8,9 +8,9 @@ You will find in the source code some problems found in codewars, as perhaps in 
 #### Table of Contents
 
 - [Isogram](#Isogram)
-  - [solution](#Solution)
+  - [isogram solution](#isogram-Solution)
 - [vowelCount](#Vowel-Count)
-  - [solution](#Solution)
+  - [vowel Count solution](#vowel-count-Solution)
 
 ## Isogram
 
