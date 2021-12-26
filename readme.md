@@ -9,8 +9,10 @@ You will find in the source code some problems found in codewars, as perhaps in 
 
 - [Isogram](#Isogram)
   - [solution](#Isogram-Solution)
-- [vowelCount](#Vowel-Count)
+- [vowel Count](#Vowel-Count)
   - [solution](#vowel-count-Solution)
+- [create Phone Number](#Create-Phone-Number)
+  - [Solution](#Create-Phone-Number-Solution)
 
 ## Isogram
 
@@ -67,5 +69,31 @@ function vowelCount(word) {
         /[aeiuo]/i.test(currentLetter) ? (numberOfVowel += 1) : numberOfVowel,
       0,
     );
+}
+```
+
+## Create Phone Number
+
+Write a function that accepts an array of 10 integers (between 0 and 9),
+that returns a string of those numbers in the form of a phone number.
+
+### **Create Phone Number Solution**
+
+```javascript
+/**
+ * format an array of numbers into a phone number
+ * @param {Array} numbers
+ * @return {string} phone number
+ */
+function createPhoneNumber(numbers) {
+  return [
+    '(',
+    ...numbers.slice(0, 3),
+    ')',
+    ' ',
+    ...numbers.slice(3, 6),
+    '-',
+    ...numbers.slice(6, 10),
+  ].join('');
 }
 ```
