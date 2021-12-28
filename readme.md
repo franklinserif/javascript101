@@ -12,7 +12,8 @@ You will find in the source code some problems found in codewars, as perhaps in 
 - [vowel Count](#Vowel-Count)
   - [solution](#vowel-count-Solution)
 - [create Phone Number](#Create-Phone-Number)
-  - [Solution](#Create-Phone-Number-Solution) -[Symetric Difference](#Symetric-Difference)
+  - [Solution](#Create-Phone-Number-Solution)
+- [Symetric Difference](#Symetric-Difference)
   - [Solution](#Symetric-Difference-Solution)
 
 ## Isogram
